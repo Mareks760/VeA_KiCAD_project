@@ -1,0 +1,208 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5F75CAFE
+P 3800 2550
+F 0 "R1" H 3870 2596 50  0000 L CNN
+F 1 "470R" V 3800 2450 50  0000 L CNN
+F 2 "" V 3730 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F75D566
+P 4150 2550
+F 0 "R2" H 4220 2596 50  0000 L CNN
+F 1 "47K" V 4150 2475 50  0000 L CNN
+F 2 "" V 4080 2550 50  0001 C CNN
+F 3 "~" H 4150 2550 50  0001 C CNN
+	1    4150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F75D785
+P 4450 2550
+F 0 "R3" H 4520 2596 50  0000 L CNN
+F 1 "47K" V 4450 2475 50  0000 L CNN
+F 2 "" V 4380 2550 50  0001 C CNN
+F 3 "~" H 4450 2550 50  0001 C CNN
+	1    4450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F75DC06
+P 4800 2550
+F 0 "R4" H 4870 2596 50  0000 L CNN
+F 1 "470R" V 4800 2450 50  0000 L CNN
+F 2 "" V 4730 2550 50  0001 C CNN
+F 3 "~" H 4800 2550 50  0001 C CNN
+	1    4800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5F75DDFF
+P 3950 3000
+F 0 "C1" H 4025 3100 50  0000 C CNN
+F 1 "47uF" H 4050 2875 50  0000 C CNN
+F 2 "" H 3950 3000 50  0001 C CNN
+F 3 "~" H 3950 3000 50  0001 C CNN
+	1    3950 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5F75EAA2
+P 4650 3000
+F 0 "C2" H 4750 3100 50  0000 C CNN
+F 1 "47uF" H 4750 2900 50  0000 C CNN
+F 2 "" H 4650 3000 50  0001 C CNN
+F 3 "~" H 4650 3000 50  0001 C CNN
+	1    4650 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3000 4450 3000
+Wire Wire Line
+	4450 3000 4450 2700
+Wire Wire Line
+	4100 3000 4150 3000
+Wire Wire Line
+	4150 3000 4150 2700
+Wire Wire Line
+	3800 3000 3800 2700
+Wire Wire Line
+	4800 3000 4800 2700
+$Comp
+L Device:LED D2
+U 1 1 5F76001C
+P 4800 1900
+F 0 "D2" H 4825 2025 50  0000 R CNN
+F 1 "LED" H 4875 1800 50  0000 R CNN
+F 2 "" H 4800 1900 50  0001 C CNN
+F 3 "~" H 4800 1900 50  0001 C CNN
+	1    4800 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5F760C40
+P 3800 1900
+F 0 "D1" H 3825 2025 50  0000 R CNN
+F 1 "LED" H 3875 1800 50  0000 R CNN
+F 2 "" H 3800 1900 50  0001 C CNN
+F 3 "~" H 3800 1900 50  0001 C CNN
+	1    3800 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1550 4150 1550
+Wire Wire Line
+	4800 1550 4800 1750
+Wire Wire Line
+	3800 1550 3800 1750
+Wire Wire Line
+	4450 2400 4450 1550
+Connection ~ 4450 1550
+Wire Wire Line
+	4450 1550 4800 1550
+Wire Wire Line
+	4150 2400 4150 1550
+Connection ~ 4150 1550
+Wire Wire Line
+	4150 1550 4450 1550
+Wire Wire Line
+	4800 2400 4800 2050
+Wire Wire Line
+	3800 2400 3800 2050
+Connection ~ 3800 3000
+Connection ~ 4800 3000
+$Comp
+L Device:Battery BT1
+U 1 1 5F767B9D
+P 2850 2750
+F 0 "BT1" H 2958 2796 50  0000 L CNN
+F 1 "9V" H 2958 2705 50  0000 L CNN
+F 2 "" V 2850 2810 50  0001 C CNN
+F 3 "~" V 2850 2810 50  0001 C CNN
+	1    2850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4050 2850 2950
+Wire Wire Line
+	2850 2550 2850 1550
+Wire Wire Line
+	2850 1550 3800 1550
+Connection ~ 3800 1550
+$Comp
+L apzimejums0:SSM2210 U1
+U 1 1 5F7E0DC8
+P 4300 3775
+F 0 "U1" H 4400 4340 50  0000 C CNN
+F 1 "SSM2210" H 4400 4249 50  0000 C CNN
+F 2 "" H 4300 3775 50  0001 C CNN
+F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/49083/AD/SSM2210.html" H 4300 3775 50  0001 C CNN
+	1    4300 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4050 3825 4050
+Wire Wire Line
+	4150 3000 4150 3200
+Wire Wire Line
+	4950 3200 4950 3625
+Wire Wire Line
+	4950 3625 4750 3625
+Wire Wire Line
+	4150 3200 4950 3200
+Connection ~ 4150 3000
+Wire Wire Line
+	4800 3525 4750 3525
+Wire Wire Line
+	4800 3000 4800 3525
+Wire Wire Line
+	3800 3525 4050 3525
+Wire Wire Line
+	3800 3000 3800 3525
+Wire Wire Line
+	4450 3000 4450 3125
+Wire Wire Line
+	4450 3125 4000 3125
+Wire Wire Line
+	4000 3125 4000 3625
+Wire Wire Line
+	4000 3625 4050 3625
+Connection ~ 4450 3000
+Wire Wire Line
+	3825 4050 3825 3725
+Wire Wire Line
+	3825 3725 4050 3725
+Connection ~ 3825 4050
+Wire Wire Line
+	3825 4050 4800 4050
+Wire Wire Line
+	4800 4050 4800 3725
+Wire Wire Line
+	4800 3725 4750 3725
+NoConn ~ 4750 3825
+NoConn ~ 4050 3825
+$EndSCHEMATC
