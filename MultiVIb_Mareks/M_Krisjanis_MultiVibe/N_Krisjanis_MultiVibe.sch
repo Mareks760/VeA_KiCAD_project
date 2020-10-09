@@ -154,7 +154,7 @@ Wire Wire Line
 	2850 1550 3800 1550
 Connection ~ 3800 1550
 $Comp
-L apzimejums0:SSM2210 U1
+L N_Krisjanis_MultiVibe-rescue:SSM2210-apzimejums0 U1
 U 1 1 5F7E0DC8
 P 4300 3775
 F 0 "U1" H 4400 4340 50  0000 C CNN

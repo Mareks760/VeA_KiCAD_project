@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name apzimejums0)(type Legacy)(uri "C:/Users/Mareks/Desktop/Skola 2020/Datorizētā iespiedplašu izstrādāšana/Apzīmejumi/apzimejums0.lib")(options "")(descr ""))
+  (lib (name N_Krisjanis_MultiVibe-rescue)(type Legacy)(uri ${KIPRJMOD}/N_Krisjanis_MultiVibe-rescue.lib)(options "")(descr ""))
 )

@@ -1,0 +1,165 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 5300 3075
+Wire Wire Line
+	6825 3700 6825 3125
+Wire Wire Line
+	5300 3700 6825 3700
+Wire Wire Line
+	5300 3075 5300 3700
+Connection ~ 5925 2575
+Wire Wire Line
+	6825 2575 6825 2825
+Wire Wire Line
+	5925 2575 6825 2575
+$Comp
+L Device:CP1 C1
+U 1 1 5F816744
+P 6825 2975
+F 0 "C1" H 6940 3021 50  0000 L CNN
+F 1 "CP1" H 6940 2930 50  0000 L CNN
+F 2 "" H 6825 2975 50  0001 C CNN
+F 3 "~" H 6825 2975 50  0001 C CNN
+	1    6825 2975
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 2575
+Wire Wire Line
+	4650 2575 4650 2675
+Wire Wire Line
+	5300 2575 4650 2575
+Connection ~ 5925 3075
+Wire Wire Line
+	5925 3500 5925 3075
+Wire Wire Line
+	4650 3500 5925 3500
+Wire Wire Line
+	4650 3075 4650 3500
+Wire Wire Line
+	5925 3075 5775 3075
+Wire Wire Line
+	5925 2975 5925 3075
+Wire Wire Line
+	5925 2575 5925 2675
+Wire Wire Line
+	5775 2575 5925 2575
+Wire Wire Line
+	5300 2575 5475 2575
+Wire Wire Line
+	5300 2675 5300 2575
+Wire Wire Line
+	5300 3075 5300 2975
+Wire Wire Line
+	5475 3075 5300 3075
+$Comp
+L Simulation_SPICE:DIODE D1
+U 1 1 5F81675B
+P 5300 2825
+F 0 "D1" H 5300 3042 50  0000 C CNN
+F 1 "DIODE" H 5300 2951 50  0000 C CNN
+F 2 "" H 5300 2825 50  0001 C CNN
+F 3 "~" H 5300 2825 50  0001 C CNN
+F 4 "Y" H 5300 2825 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 5300 2825 50  0001 L CNN "Spice_Primitive"
+	1    5300 2825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D4
+U 1 1 5F816763
+P 5925 2825
+F 0 "D4" H 5925 3042 50  0000 C CNN
+F 1 "DIODE" H 5925 2951 50  0000 C CNN
+F 2 "" H 5925 2825 50  0001 C CNN
+F 3 "~" H 5925 2825 50  0001 C CNN
+F 4 "Y" H 5925 2825 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 5925 2825 50  0001 L CNN "Spice_Primitive"
+	1    5925 2825
+	0    1    1    0   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D3
+U 1 1 5F81676B
+P 5625 3075
+F 0 "D3" H 5625 3292 50  0000 C CNN
+F 1 "DIODE" H 5625 3201 50  0000 C CNN
+F 2 "" H 5625 3075 50  0001 C CNN
+F 3 "~" H 5625 3075 50  0001 C CNN
+F 4 "Y" H 5625 3075 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 5625 3075 50  0001 L CNN "Spice_Primitive"
+	1    5625 3075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D2
+U 1 1 5F816773
+P 5625 2575
+F 0 "D2" H 5625 2792 50  0000 C CNN
+F 1 "DIODE" H 5625 2701 50  0000 C CNN
+F 2 "" H 5625 2575 50  0001 C CNN
+F 3 "~" H 5625 2575 50  0001 C CNN
+F 4 "Y" H 5625 2575 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 5625 2575 50  0001 L CNN "Spice_Primitive"
+	1    5625 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2675 3850 2675
+Wire Wire Line
+	3400 2825 3400 2675
+Wire Wire Line
+	3400 3075 3400 2925
+Wire Wire Line
+	3850 3075 3400 3075
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5F81677D
+P 3200 2825
+F 0 "J2" H 3200 3025 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3475 2925 50  0000 C CNN
+F 2 "" H 3200 2825 50  0001 C CNN
+F 3 "~" H 3200 2825 50  0001 C CNN
+	1    3200 2825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Transformer_1P_1S T1
+U 1 1 5F816783
+P 4250 2875
+F 0 "T1" H 4250 3256 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 4250 3165 50  0000 C CNN
+F 2 "" H 4250 2875 50  0001 C CNN
+F 3 "~" H 4250 2875 50  0001 C CNN
+	1    4250 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 2575 6975 2575
+Connection ~ 6825 2575
+Wire Wire Line
+	6825 3700 6975 3700
+Wire Wire Line
+	6975 3700 6975 3675
+Connection ~ 6825 3700
+Text HLabel 6975 2575 2    50   Input ~ 0
+VCC
+Text HLabel 6975 3675 2    50   Input ~ 0
+GCC
+Text HLabel 3500 2675 1    50   Input ~ 0
+220V_AC
+Text HLabel 3500 3075 3    50   Input ~ 0
+LINE
+$EndSCHEMATC

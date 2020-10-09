@@ -86,11 +86,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# apzimejums0_SSM2210
+# N_Krisjanis_MultiVibe-rescue_SSM2210-apzimejums0
 #
-DEF apzimejums0_SSM2210 U 0 40 Y Y 1 F N
+DEF N_Krisjanis_MultiVibe-rescue_SSM2210-apzimejums0 U 0 40 Y Y 1 F N
 F0 "U" 100 550 50 H V C CNN
-F1 "apzimejums0_SSM2210" 100 450 50 H V C CNN
+F1 "N_Krisjanis_MultiVibe-rescue_SSM2210-apzimejums0" 100 450 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
