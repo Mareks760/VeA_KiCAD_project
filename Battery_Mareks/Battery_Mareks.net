@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Mareks\Desktop\Ventspil_aug\Datorizeta_iespiedplasu_izstradasana\VeA_KiCAD_project\Battery_Mareks\Battery_Mareks.sch)
-    (date "22.10.2020 14:44:00")
+    (date "22.10.2020 15:12:29")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref BT1)
       (value Battery_Cell)
-      (footprint Battery_Holder_:SMTU2032)
+      (footprint Battery_Holder_:BC-2001)
       (datasheet ~)
       (libsource (lib Device) (part Battery_Cell) (description "Single-cell battery"))
       (sheetpath (names /) (tstamps /))
