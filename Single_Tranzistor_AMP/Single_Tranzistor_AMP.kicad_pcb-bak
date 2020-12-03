@@ -139,7 +139,7 @@
     (descr "Generic Buzzer, D14mm height 7mm with pitch 10mm")
     (tags buzzer)
     (path /5F87171B)
-    (fp_text reference BZ1 (at 5.16 -8.23 90) (layer F.SilkS)
+    (fp_text reference BZ1 (at 5.35 2.35 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Buzzer (at 4.69 8.41 90) (layer F.Fab)
