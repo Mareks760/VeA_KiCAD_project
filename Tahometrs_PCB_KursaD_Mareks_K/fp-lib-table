@@ -132,4 +132,5 @@
   (lib (name Valve)(type KiCad)(uri ${KISYSMOD}/Valve.pretty)(options "")(descr Valve))
   (lib (name Varistor)(type KiCad)(uri ${KISYSMOD}/Varistor.pretty)(options "")(descr Varistor))
   (lib (name Lodlaukumi)(type KiCad)(uri ${KIPRJMOD}/Lodlaukumi)(options "")(descr ""))
+  (lib (name Apzimejumi)(type KiCad)(uri ${KIPRJMOD}/Apzimejumi.pretty)(options "")(descr ""))
 )
